@@ -7,9 +7,9 @@ Link to dataset: https://www.kaggle.com/uciml/pima-indians-diabetes-database
 
 Accuracy: 
 
-|       	  |  without PCA  | with OCA |
+|       	  |  without PCA  | with PCA |
 | ----------- | ----------- | ----------- |
-| Logistic Regression | 0.79 | 0.92	|
-| Support Vector Machine | 0.74  | 0.94 |
+| Logistic Regression | 0.79 | 0.73	|
+| Support Vector Machine | 0.74  | 0.74 |
 
-Overall, using PCA is better than not using PCA in building a classification model.
+Overall, using PCA and not using it no significant effect on accuracy.
